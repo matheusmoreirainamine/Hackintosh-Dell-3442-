@@ -2,6 +2,7 @@
 Eu fiz um hackintosh em um Dell Inspiron 3442 com um processador i3 na versão MacOS Mojave. Sempre via hackintoshs com a variante i5 deste notebook, resolvi fazer o meu projeto e compartilhar, caso outras pessoas necessitem desta pasta EFI
 Vou disponibilizar para aqueles que gostariam de trabalhar neste projeto, os SysReport gerados pelo [Hardware Sniffer](https://github.com/lzhoang2801/Hardware-Sniffer)
 Para baixar o instalador do Mac, utilizei a página oficial do [Opencore](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html) como guia, utilizei o método de criação do Windows, ele está em Inglês, mas nada que um Google Tradutor não ajude.
+O Opencore Simplify foi muito útil para criar essa pasta EFI, apesar de mesmo assim precisar fazer algumas alterações para o melhor funcionamento.
 
 ## Especificação do Notebook:
 
