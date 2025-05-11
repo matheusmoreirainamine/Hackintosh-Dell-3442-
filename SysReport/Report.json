@@ -1,0 +1,332 @@
+{
+    "Motherboard": {
+        "Name": "DELL INSPIRON 3442",
+        "Chipset": "Lynx Point",
+        "Platform": "Laptop"
+    },
+    "BIOS": {
+        "Version": "A05",
+        "Release Date": "2014-11-14",
+        "System Type": "x64-based",
+        "Firmware Type": "UEFI",
+        "Secure Boot": "Disabled"
+    },
+    "CPU": {
+        "Manufacturer": "Intel",
+        "Processor Name": "Intel(R) Core(TM) i3-4005U",
+        "Codename": "Haswell-ULT",
+        "Core Count": "02",
+        "CPU Count": "01",
+        "SIMD Features": "SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2"
+    },
+    "GPU": {
+        "Intel(R) HD Graphics Family": {
+            "Manufacturer": "Intel",
+            "Codename": "Haswell",
+            "Device ID": "8086-0A16",
+            "Device Type": "Integrated GPU",
+            "Subsystem ID": "06511028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x2,0x0)",
+            "ACPI Path": "\\_SB.PCI0.GFX0",
+            "Resizable BAR": "Disabled"
+        }
+    },
+    "Monitor": {
+        "CMN1496": {
+            "Connector Type": "Internal",
+            "Resolution": "1366x768",
+            "Connected GPU": "Intel(R) HD Graphics Family"
+        }
+    },
+    "Network": {
+        "Dell Wireless 1705 802.11b|g|n (2.4GHZ)": {
+            "Bus Type": "PCI",
+            "Device ID": "168C-0036",
+            "Subsystem ID": "020C1028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x2)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.PCI0.RP03.PXSX"
+        },
+        "Realtek PCIe FE Family Controller": {
+            "Bus Type": "PCI",
+            "Device ID": "10EC-8136",
+            "Subsystem ID": "05F31028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x3)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.PCI0.RP04.PXSX"
+        }
+    },
+    "Sound": {
+        "Dispositivo de High Definition Audio": {
+            "Bus Type": "HDAUDIO",
+            "Device ID": "10EC-0255",
+            "Subsystem ID": "10280651",
+            "Audio Endpoints": [
+                "Alto-falantes",
+                "Microphone"
+            ],
+            "Controller Device ID": "8086-9C20"
+        },
+        "\u00c1udio Intel(R) para telas": {
+            "Bus Type": "HDAUDIO",
+            "Device ID": "8086-2807",
+            "Subsystem ID": "80860101",
+            "Controller Device ID": "8086-0A0C"
+        }
+    },
+    "USB Controllers": {
+        "Intel(R) 8 Series USB Enhanced Host Controller #1 - 9C26": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-9C26",
+            "Subsystem ID": "06511028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1d,0x0)",
+            "ACPI Path": "\\_SB.PCI0.EHC1"
+        },
+        "Intel(R) USB 3.0 eXtensible Host Controller - 1.0 (Microsoft)": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-9C31",
+            "Subsystem ID": "06511028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x14,0x0)",
+            "ACPI Path": "\\_SB.PCI0.XHC_"
+        }
+    },
+    "Input": {
+        "Dispositivo definido pelo fornecedor compat\u00edvel com HID": {
+            "Bus Type": "ACPI",
+            "Device": "DLL0651",
+            "Device Type": "Dispositivo HID I2C"
+        },
+        "Teclado Padr\u00e3o PS/2": {
+            "Bus Type": "ACPI",
+            "Device": "DLLK0651",
+            "Device Type": "PS/2"
+        }
+    },
+    "Storage Controllers": {
+        "8 Series SATA Controller 1 [AHCI mode]": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-9C03",
+            "Subsystem ID": "06511028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x2)",
+            "ACPI Path": "\\_SB.PCI0.SAT0",
+            "Disk Drives": [
+                "SAMSUNG MZMTD128HAFV-000"
+            ]
+        }
+    },
+    "SD Controller": {
+        "USB2.0-CRW": {
+            "Bus Type": "USB",
+            "Device ID": "0BDA-0129"
+        }
+    },
+    "System Devices": {
+        "Placa do sistema": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C01",
+            "ACPI Path": "\\_SB.PCI0.TPMX"
+        },
+        "Recursos da placa-m\u00e3e": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.PDRC"
+        },
+        "Recursos da placa-m\u00e3e_#1": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.LPCB.LDRC"
+        },
+        "Recursos da placa-m\u00e3e_#2": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.SIRC"
+        },
+        "Controlador Host Intel(R) Serial IO I2C - 9C61": {
+            "Bus Type": "ACPI",
+            "Device": "INT33C2",
+            "ACPI Path": "\\_SB.PCI0.I2C0"
+        },
+        "Controlador Host Intel(R) Serial IO I2C - 9C62": {
+            "Bus Type": "ACPI",
+            "Device": "INT33C3",
+            "ACPI Path": "\\_SB.PCI0.I2C1"
+        },
+        "Controlador Host Intel(R) Serial IO GPIO - INT33C7": {
+            "Bus Type": "ACPI",
+            "Device": "INT33C7",
+            "ACPI Path": "\\_SB.PCI0.GPI0"
+        },
+        "Dispositivo herdado": {
+            "Bus Type": "ACPI",
+            "Device": "INT0800",
+            "ACPI Path": "\\_SB.PCI0.LPCB.FWHD"
+        },
+        "Gerenciador de Volumes": {
+            "Bus Type": "ROOT",
+            "Device": "VOLMGR"
+        },
+        "Driver de V\u00eddeo B\u00e1sico da Microsoft": {
+            "Bus Type": "ROOT",
+            "Device": "BASICDISPLAY"
+        },
+        "Zona T\u00e9rmica ACPI": {
+            "Bus Type": "ACPI",
+            "Device": "THERMALZONE",
+            "ACPI Path": "\\_SB.THM_"
+        },
+        "Bot\u00e3o Suspens\u00e3o ACPI": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0E",
+            "ACPI Path": "\\_SB.SBTN"
+        },
+        "Timer do sistema": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0100",
+            "ACPI Path": "\\_SB.PCI0.LPCB.TIMR"
+        },
+        "Interface de Gerenciamento do Microsoft Windows para ACPI": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.AMW0"
+        },
+        "Driver de Infraestrutura de Virtualiza\u00e7\u00e3o Microsoft Hyper-V": {
+            "Bus Type": "ROOT",
+            "Device": "VID"
+        },
+        "Timer de eventos de alta precis\u00e3o": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0103",
+            "ACPI Path": "\\_SB.PCI0.LPCB.HPET"
+        },
+        "Enumerador de Barramento de Composi\u00e7\u00e3o": {
+            "Bus Type": "ROOT",
+            "Device": "COMPOSITEBUS"
+        },
+        "Enumerador de Unidade Virtual Microsoft": {
+            "Bus Type": "ROOT",
+            "Device": "VDRVROOT"
+        },
+        "Ponte PCI para PCI": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-9C14",
+            "Subsystem ID": "06511028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x2)",
+            "ACPI Path": "\\_SB.PCI0.RP03"
+        },
+        "Controlador de High Definition Audio": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-0A0C",
+            "Subsystem ID": "06511028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x3,0x0)",
+            "ACPI Path": "\\_SB.PCI0.B0D3"
+        },
+        "Tampa ACPI": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0D",
+            "ACPI Path": "\\_SB.LID0"
+        },
+        "Enumerador de Barramento de Raiz UMBus": {
+            "Bus Type": "ROOT",
+            "Device": "UMBUS"
+        },
+        "Driver de Arbitragem de Carregamento": {
+            "Bus Type": "ROOT",
+            "Device": "CAD"
+        },
+        "Complexo da Raiz de PCI Express": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0A08",
+            "ACPI Path": "\\_SB.PCI0"
+        },
+        "Microsoft ACPI-Compliant System": {
+            "Bus Type": "ACPI_HAL",
+            "Device": "PNP0C08"
+        },
+        "Driver de Renderiza\u00e7\u00e3o B\u00e1sico da Microsoft": {
+            "Bus Type": "ROOT",
+            "Device": "BASICRENDER"
+        },
+        "CMOS do sistema/rel\u00f3gio em tempo real": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0B00",
+            "ACPI Path": "\\_SB.PCI0.LPCB.RTC_"
+        },
+        "Ponte PCI para PCI_#1": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-9C16",
+            "Subsystem ID": "06511028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x3)",
+            "ACPI Path": "\\_SB.PCI0.RP04"
+        },
+        "Bot\u00e3o de Recurso fixo ACPI": {
+            "Bus Type": "ACPI",
+            "Device": "FIXEDBUTTON"
+        },
+        "Controlador de interrup\u00e7\u00e3o program\u00e1vel": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0000",
+            "ACPI Path": "\\_SB.PCI0.LPCB.IPIC"
+        },
+        "PCI standard ISA bridge": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-9C45",
+            "Subsystem ID": "06511028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x0)",
+            "ACPI Path": "\\_SB.PCI0.LPCB"
+        },
+        "Recursos da placa-m\u00e3e_#3": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.LPCB.RMSC"
+        },
+        "Controlador de High Definition Audio_#1": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-9C20",
+            "Subsystem ID": "06511028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1b,0x0)",
+            "ACPI Path": "\\_SB.PCI0.HDEF"
+        },
+        "Recursos da placa-m\u00e3e_#4": {
+            "Bus Type": "ACPI",
+            "Device": "INT3F0D",
+            "ACPI Path": "\\_SB.PCI0.LPCB.CWDT"
+        },
+        "Controlador de acesso direto \u00e0 mem\u00f3ria": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0200",
+            "ACPI Path": "\\_SB.PCI0.LPCB.DMAC"
+        },
+        "Bot\u00e3o ligar/desligar ACPI": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0C",
+            "ACPI Path": "\\_SB.PWRB"
+        },
+        "Enumerador de Adaptador de Rede Virtual NDIS": {
+            "Bus Type": "ROOT",
+            "Device": "NDISVIRTUALBUS"
+        },
+        "Ponte PCI para PCI_#2": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-9C10",
+            "Subsystem ID": "06511028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x0)",
+            "ACPI Path": "\\_SB.PCI0.RP01"
+        },
+        "Microsoft System Management BIOS Driver": {
+            "Bus Type": "ROOT",
+            "Device": "MSSMBIOS"
+        },
+        "PCI standard host CPU bridge": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-0A04",
+            "Subsystem ID": "06511028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x0,0x0)"
+        },
+        "Enumerador de Dispositivos de Software Plug and Play": {
+            "Bus Type": "ROOT",
+            "Device": "SYSTEM"
+        },
+        "Barramento do Redirecionador de Dispositivos de \u00c1rea de Trabalho Remota": {
+            "Bus Type": "ROOT",
+            "Device": "RDPBUS"
+        }
+    }
+}
