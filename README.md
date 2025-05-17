@@ -16,9 +16,11 @@ SSD 128gb
 
 ## O que está funcionando?
 
+Teclado/Touchpad (Após um usuário do Reddit me ajudar, finalmente uma das coisas mais importantes funcionam)
+
 Hibernar
 
-Wi-Fi (A velocidade não ficou muito boa, mas para o que será utilizado (90% offline) está bom)
+Wi-Fi (Melhorei o multiplicador de força da antena e agora está mais utilizável)
 
 Webcam
 
@@ -37,8 +39,6 @@ Cabo Ethernet
 Bluetooth (não consegui testar, assumi que não funciona, caso funcione, entre em contato comigo na aba issues)
 
 HDMI 
-
-Teclado/Touchpad (Eu passei exatos 2 dias tentando resolver isso)
 
 Leitor de Cartão SD (Já esperava que isso não funcionasse)
 
